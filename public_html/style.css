@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: whitesmoke;
+    width: auto;
+    height: auto;
+}
+
+#conten{
+    width: 80%;
+    height: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#trippel-container{
+    margin-bottom: -2%;
+    margin-top: 1%;
+    margin-left: 5%;
+    padding-left: 10px;
+    width: 270px;
+    height: 48%;
+    background-image: url('img/Forsen.png');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+    float: left;  
+}
+
+#transparent{
+    margin-top: -2%;
+}
+
+#trippel-container:hover{
+   background-image: url('img/cardForsen.png');
+   opacity: 0.5;
+}
+
+
+
