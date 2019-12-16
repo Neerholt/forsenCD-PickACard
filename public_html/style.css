@@ -31,6 +31,7 @@ body{
 
 #transparent{
     margin-top: -2%;
+    clear: both;
 }
 
 #trippel-container:hover{
