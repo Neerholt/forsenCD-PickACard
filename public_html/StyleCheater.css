@@ -1,0 +1,13 @@
+body {
+  background-image: url('img/HearthstoneBackground.jpg');
+}
+
+#title {
+    float: left;
+    margin-left: 27%;
+    font-size: 50px;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+    
+}
