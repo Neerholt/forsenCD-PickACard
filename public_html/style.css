@@ -4,16 +4,18 @@
 }
 
 body{
-    background-color: whitesmoke;
+    background-image: url('img/Background.jpg');
     width: auto;
     height: auto;
 }
 
-#content{
-    width: 80%;
-    height: 900px;
-    margin-left: auto;
-    margin-right: auto;
+#content{ 
+   width: 1500px;
+   height: 900px;
+   padding: 50px;
+   border: 5px solid black;
+   margin: auto;
+   background-image: url('img/MyMan.png');
 }
 
 #trippel-container{
@@ -30,13 +32,20 @@ body{
 }
 
 #transparent{
+    color: whitesmoke;
     margin-top: -2%;
     clear: both;
+    font-size: 25px;
 }
 
 #trippel-container:hover{
-   background-image: url('img/cardForsen.png');
-   opacity: 0.5;
+   background-image: url('img/ForsenCD.png');
+   opacity: 0.75;
+}
+
+#arena{
+    font-style: italic;
+    font-size: 25px;
 }
 
 
