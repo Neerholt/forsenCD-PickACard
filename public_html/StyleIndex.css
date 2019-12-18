@@ -31,7 +31,25 @@ body{
     float: left;  
 }
 
-#transparent{
+#trippel-container .text {
+    position:relative;
+    bottom:-380px;
+    left:-10px;
+    visibility:hidden;
+    font-size: 20px;
+    color: whitesmoke;
+    opacity: 1;
+    background-image: url('img/RedBackground.jpg');
+
+}
+
+#trippel-container:hover .text{
+    visibility:visible;
+
+
+}
+
+#transparent{ 
     color: whitesmoke;
     margin-top: -2%;
     clear: both;
@@ -40,12 +58,13 @@ body{
 
 #trippel-container:hover{
    background-image: url('img/ForsenCD.png');
-   opacity: 0.75;
+   opacity: 0.25;
 }
 
 #arena{
     font-style: italic;
     font-size: 25px;
+    color: red;
 }
 
 
